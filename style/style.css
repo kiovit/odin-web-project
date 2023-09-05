@@ -5,3 +5,53 @@ html {
   * {
     box-sizing: border-box;
   }
+
+ body {
+  margin: 0;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+ header {
+ display: flex;
+ flex-direction: column;
+ width: 100%; 
+ background-color: rgb(42, 41, 48);
+ color: white;
+  }
+
+ .header-top {
+  display:flex;
+  justify-content: space-between;
+
+ }
+
+ .header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+  
+ }
+
+ .sub-hearder {
+  display: flex;
+ }
+
+ .header-link {
+  display: flex;  
+  color: white;
+ }
+ 
+ 
+
+ a {
+  text-decoration: none;
+  color: white;
+ }
+
+ button {
+  background-color: rgba(65, 111, 237, 0.977);
+  border-radius: 10px;
+ }
