@@ -46,7 +46,7 @@ html {
  .sub-text {
   display: flex;
   flex: wrap;
-  flex-basis: 300px;
+  flex-basis: 25rem;
   flex-direction: column;
   }
 
@@ -66,20 +66,6 @@ html {
   color: white;
  }
  
- a {
-  text-decoration: none;
-  color: white;
- }
-
- button {
-  background-color: rgba(65, 111, 237, 0.977);
-  border-radius: 10px;
-  padding: 5px;
-  font-size: 1em;
-  font-weight: bold;
-  width: 150px;
- 
- }
 
  .info{
   display:flex;
@@ -95,11 +81,67 @@ html {
 
  }
 
+ .quote{
+  background-color: rgb(222, 228, 230);
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+
+ }
+
+ .banner{
+  background-color: rgba(140, 170, 252, 0.977);
+  margin: 3rem;
+  border-radius: 1rem;
+  width: 55rem;
+  padding: 2rem;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ footer {
+  background-color: rgb(42, 41, 48);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
  .info-img {
-  max-width: 200px;
+  max-width: 250px;
+  object-fit: contain;
 
  }
 
  .text {
   text-align: center;
+ }
+
+ #logo {
+  width: 8rem;
+
+ }
+
+ a {
+  text-decoration: none;
+  color: white;
+ }
+
+ button {
+  background-color: rgba(65, 111, 237, 0.977);
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  width: 150px; 
+  cursor: pointer;
+ }
+
+ button:hover {
+  background-color: rebeccapurple;
  }
