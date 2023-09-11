@@ -111,10 +111,8 @@ font-size: 48px;
  }
 
  .sign {
-  position: absolute;
   margin-top: 2rem;
-  right: 13rem;
-
+  text-align: right;
  }
 
  .banner{
