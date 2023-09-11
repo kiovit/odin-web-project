@@ -1,7 +1,6 @@
 html {
     min-height: 100vh;
     display:flex;
-    flex:wrap;
   }
 
   * {
@@ -62,6 +61,7 @@ font-size: 48px;
 .sub-img{
   display:flex;
   max-height: 22rem;
+  max-width: auto;
  } 
 
  main {
